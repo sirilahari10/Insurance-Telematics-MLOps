@@ -16,10 +16,8 @@ This repository demonstrates a production-ready approach to building, tracking, 
 Below is the SHAP summary plot generated from the test set. It clearly demonstrates that `hard_braking_events` drives the most risk, while older `driver_age` acts as a protective factor. 
 
 ![SHAP Summary Plot](shap_summary.png)
-*(Note: Ensure shap_summary.png is uploaded to the root of this repo)*
 
-## The Business Takeaway
-As an AI/ML Engineer, my goal isn't just to maximize accuracy metrics in a Jupyter notebook. It is to build robust, explainable, and tracked pipelines that can be safely deployed into production to drive business decisions. 
+
 
 ---
 *Stack: Python, XGBoost, SHAP, MLflow, Pandas, Scikit-Learn.*
